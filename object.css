@@ -97,6 +97,14 @@
     color: var(--litle-white-f6)
     
 }
+.litle_white_text20_f6_400 {
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: var(--litle-white-f6)  
+}
 .litle_white_text20_ea_700 {
     font-weight: 700;
     font-size: 20px;
