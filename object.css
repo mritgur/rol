@@ -6,6 +6,7 @@
     line-height: 110%;
     color: var(--litle-white-ea);
     box-sizing: border-box;
+    /* background:#0F0F0F;  */
 }
 :root{
     --text-red-92d: linear-gradient(92.06deg, #F32C73 13.82%, #8A0C39 90.62%);
@@ -220,6 +221,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 /* ФИОЛЕТОВЫЕ */
 .btn_purple_200_41 {
@@ -230,6 +232,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 /* СИНИЕ */
 .btn_blue_200_41 {
@@ -242,6 +245,7 @@
     justify-content: center;
     align-items: center;
     background-size: 200px;
+    cursor: pointer;
 }
 /* .btn_blue_200_41 {
     width: 200px;
@@ -260,6 +264,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 

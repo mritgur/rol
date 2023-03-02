@@ -148,7 +148,7 @@
     .footer .litle_white_text20_f6_700, .footer .litle_white_text20_f6_400{
         font-size: 10px;
     }
-    .litle_white_text10_f6_400{media
+    .litle_white_text10_f6_400{
         font-size: 5px;
     }
 
@@ -170,7 +170,7 @@
     
     .footer_main{
         position: relative;
-        margin-top: 3px;
+        margin-top: 11px;
         justify-content: start;
     }
     .footer_main_column_1{
@@ -196,16 +196,16 @@
     .footer_main{
         padding-left: 14px;
     }
-    .footer_main_column_message{
+    /* .footer_main_column_message{
         position: relative;
-    }
+    } */
     .footer_main_column_message{
         position: absolute;
-        left: 200px;
-        bottom: -33px;
+        left: 242px;
+        bottom: -45px;
     }
     .footer_main_column_message_title{
-        line-height: 100px;
+        line-height: 100%;
     }
     .footer_main_column_message_mes{
         margin-top: 4px;
@@ -227,8 +227,8 @@
         position: absolute;
        display: flex;
        align-items: start;
-       bottom: -132px;
-       left: -186px;
+       bottom: -125px;
+        left: -229px;
         margin: 0;
     }
     .footer_main_column_message_work .litle_white_text20_f6_400{
@@ -249,7 +249,7 @@
     .footer_main_column_1_social{
         display: flex;
         position: absolute;
-        bottom: -59px;
+        bottom: -63px;
      
         left: 0;
         margin: 0;
@@ -275,6 +275,9 @@
     }
     .footer_main_column_1_3 br {
         display: none;
+    }
+    .footer_main_column_1_social .litle_white_text10_f6_400{
+        bottom: -23px;
     }
 
 }
