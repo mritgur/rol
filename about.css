@@ -1,0 +1,30 @@
+
+.peopleroll, .questions{
+    background: #0F0F0F;
+}
+.peopleroll{
+    padding: 39px 0 10px 0;
+}
+.peopleroll .big_text_red_13 {
+    max-width: 655px;
+    width: 100%;
+}
+.peopleroll_wrap {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.questions {
+    padding: 62px 0 10px 0;
+}
+.questions .big_text_red_13 {
+    max-width: 981px;
+    width: 100%;
+    margin-bottom: 27px;
+}
+.questions .btn_blue_200_41{
+    margin-top: 33px;
+}
