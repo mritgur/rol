@@ -1,0 +1,132 @@
+.container{
+    width: 1359px;
+    margin: 0 auto;
+}
+.container_header{
+    width: 1374px;
+    margin: 0 auto;
+}
+.header {
+    background: #0F0F0F;
+    padding: 21px 0 5px 0;
+}
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: start;
+}
+.header_logo {
+    max-width: 150px;
+}
+.header_logo {
+    max-width: 150px;
+}
+.header_logo img {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.header_nav_wrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 857px;
+    width: 100%;
+    margin-top: 17px;
+    flex-wrap: wrap;
+
+    
+}
+.header_nav_up , .header_nav_down  { 
+    max-width: 847px;
+    width: 100%;
+}
+.header_nav_up a , .header_nav_down a { 
+    text-decoration: none;
+}
+.header_nav_down{
+    margin-top: 13px;
+}
+.header_nav_up ul, .header_nav_down ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+.litle_red_text20_700 {
+}
+.header_nav_down {
+   max-width: 795px; 
+
+}
+.litle_white_text20_ea_700 {
+}
+.header_contacts {
+    width: 328px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+.header_contacts_city {
+    padding-right: 36px;
+    align-items: center;
+    position: relative;
+}
+.header_contacts_city::after {
+    content: url('img/icons/arrow_header.svg');
+    position: absolute;
+    top: -2px;
+    right: 8px;
+}
+
+.header_contacts_tel {
+}
+.header_contacts_account {
+}
+.header_contacts_cart {
+}
+/* адаптация    */
+@media( max-width:1439px  ){
+    .container_header {
+        max-width: 1100px;
+    }
+    .header_wrapper{
+        gap:10px;
+    }
+    .header_contacts{
+        flex-wrap: wrap;
+    }
+
+}
+@media( max-width:1200px ){
+ .container_header{
+        max-width: 960px;
+    }
+    .header_nav_down ul{
+        gap: 10px;
+    }
+
+}
+@media( max-width:992px  ){
+.container_header{
+        max-width: 720px;
+    }
+}
+@media( max-width:768px  ){
+ .container_header{
+        max-width: 540px;
+    }
+
+}
+@media( max-width:576px  ){
+  .container_header{
+        max-width: 100%;
+        padding:0 10px;
+    }
+
+}
+
+

@@ -1,0 +1,205 @@
+.fpage_slider_section, .createroll, .menu, .set {
+    background:#0F0F0F;
+}
+.fpage_slider_wrapper{
+    position: relative;
+}
+.fpage_slider_next{
+    position: absolute;
+    right: -23px;
+    top: 42%;
+   
+
+}
+.fpage_slider{
+    height: auto;
+    width: 1200px;
+    padding: 50px 0 74px;
+    overflow: visible;
+    background:#0F0F0F;
+
+}
+.tns-outer {
+    overflow: visible;
+
+}
+.createroll{
+    padding-bottom: 40px;
+}
+.fpage_slider_title, .createroll_title {
+    margin-top: 39px;
+    width: 255px;
+    float: left;
+}
+.fpage_slider {
+}
+.pl60{
+    visibility: hidden;
+    opacity: 0;
+    padding-left: 38px;
+    transition: 0.3s;
+}
+.tns-slide-active{
+    visibility: visible ;
+    opacity: 1;
+}
+.tns-ovh{
+    padding-left: 49px;
+}
+
+
+/* секция создай ролл */
+.createroll_title {
+    position: relative;
+    margin-top: 0px;
+    width: 302px;
+    float: right;
+}
+.createroll_title::before {
+    content:url("img/first_page/arrow.svg");
+    position: absolute;
+    left: -223px;
+    top: 37px;
+}
+.createroll {
+}
+
+
+.createroll_touch_wrap {
+    position: relative;
+}
+
+.createroll_touch_cards{
+    display: flex; 
+    margin-top: 34px;
+}
+.createroll_touch_cards .card308_308_bg_blue{
+    margin-right: 33px;
+}
+.createroll_touch_counts {
+ 
+    margin: -5px 0 0 50px;
+    display: flex;
+ 
+}
+.createroll_touch_counts_actual {
+}
+.createroll_touch_counts_all {
+}
+/* секция создай ролл конец */
+
+/* секция меню */
+.menu {
+    padding-top: 28px;
+}
+.menu .card1002_152_bg_purple {
+    margin-top: 37px;
+}
+.menu_title {
+}
+.menu_sotitle {
+    margin-top: 23px;
+}
+.midle_text_white35_ea {
+}
+
+.menu_rolls_wrap {
+}
+.menu_title2 {
+    margin-top: 36px;
+}
+.menu_rolls {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 36px;
+}
+
+.menu_btn{
+    
+    margin: 39px auto 0;
+}
+
+/* секция меню конец */
+
+/* секция набор  */
+.set {
+padding: 38px 0 28px 0;
+}
+
+.set_title {
+    position: relative;
+    margin-top: 0px;
+    width: 430px;
+    margin-right: 89px;
+    margin-top: 63px;
+    float: right;
+}
+
+.set_quantity_title {
+}
+.set_quantity_wrap {
+    margin-top: 39px;
+    display: flex;
+}
+
+.set_quantity_counts {
+    margin: -5px 0 0 50px;
+    display: flex;
+}
+/* секция набор конец */
+
+
+
+/* адаптация    */
+@media( max-width:1439px  ){
+    .container {
+        max-width: 1100px;
+    }
+  
+
+}
+@media( max-width:1200px ){
+ .container{
+        max-width: 960px;
+    }
+    .tns-ovh{
+        padding-left: 10px;
+    }
+    .createroll_title {
+        float: none;
+    }
+    .createroll_title{
+        display: block;
+        width: 520px ;
+        margin: 0 auto 30px;
+    }
+   
+}
+@media( max-width:992px  ){
+.container{
+        max-width: 720px;
+    }
+   
+}
+@media( max-width:768px  ){
+ .container{
+        max-width: 540px;
+    }
+    .fpage_slider_title {
+        float: none;
+    }
+ 
+
+}
+@media( max-width:576px  ){
+  .container{
+        max-width: 100%;
+        padding:0 10px;
+    }
+
+
+
+}
+

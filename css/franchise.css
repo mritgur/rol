@@ -1,0 +1,240 @@
+/* секция франшиза старт */
+.franchise_start, .allfree, .startpackage, .growplan, .presentation, .green {
+    background:#0F0F0F;
+}
+.franchise_start {
+    padding: 27px 20px;
+}
+
+.franchise_start_wrap1 {
+    float: left;
+}
+.franchise_start_wrap1 .big_text_red_13 {
+    width: 530px;
+}
+.franchise_start_wrap1 .midle_text_white35_ea {
+    margin-top: 28px;
+    width: 585px;
+    line-height: 110%;
+}
+.franchise_start_wrap1 .btn_blue_200_41 {
+    margin-top: 13px;
+}
+
+.franchise_start_wrap2 {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    margin: 12px 13px 0 0;
+    padding-top: 13px;
+}
+.franchise_start_wrap2 img {
+}
+.franchise_start_wrap2 div {
+    position: absolute;
+    width: 329px;
+    height: 148px;
+    background:#0F0F0F;
+    padding: 20px;
+    right: 18px;
+    bottom: 0;
+    line-height: 110%;
+
+
+}
+.franchise_start_wrap3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 81px;
+    /* justify-content: space-between; */
+    padding-left: 8px;
+}
+.franchise_start_wrap3 div:nth-child(1) {
+  margin-right: 84px;
+}
+.franchise_start_wrap3 div:nth-child(2) {
+  margin-right: 60px;
+}
+.franchise_start_wrap3 div:nth-child(3) {
+  margin-right: 114px;
+}
+/* секция франшиза старт конец */
+/* секция стра свобод */
+.allfree {
+    padding-top: 40px;
+}
+.allfree .big_text_red84 {
+    max-width: 780px;
+    width: 100%;
+}
+.allfree .midle_text_white35_ea {
+    margin-top: 22px;
+    padding-left: 8px;
+    max-width: 610px;
+    width: 100%;
+    line-height: 110%;
+}
+.big_text_white84 {
+}
+.midle_text_white35_ea {
+
+}
+.allfree_map {
+    margin-top: 38px;
+    max-width: 1002px;
+    width: 100%;
+    height: 334px;
+    border-radius: 20px;
+}
+/* секция стра свобод конец */
+/* секция старт пакет  */
+.startpackage {
+    padding: 68px 0 10px 0;
+}
+.startpackage .big_text_red84 {
+}
+.startpackage_wrap {
+    margin-top: 22px;
+    display: flex;
+    width: auto;
+}
+.startpackage_wrap * {
+    line-height: 150%;
+}
+.startpackage_wrap1 {
+    margin-right: 95px;
+}
+.startpackage_wrap2 {
+}
+.startpackage .midle_text_blue50_89blue {
+    margin-top: 26px;
+}
+
+
+/* секция старт пакет конец конец */
+
+.growplan {
+    padding: 42px 0 20px 0;
+}
+.big_text_red84 {
+}
+.growplan_wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.growplan_card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    margin-right: 149px;
+}
+.growplan_card img{
+    width: 190px;
+    height: 190px;
+    
+    
+}
+.growplan_card .litle_red_text20_700  {
+    margin: 30px 0 19px 15px;
+    line-height: 98%;
+    
+}
+.growplan_card .litle_white_text20_ea_400  {
+    line-height: 98%;
+    margin-left: 15px;
+}
+.growplan .litle_white_text10_ff_400{
+    margin:  27px 0 0 17px;
+  }
+
+
+.presentation {
+    padding: 9px 0 10px 0;
+}
+.presentation .big_text_red84 {
+    max-width: 1000px;
+    width: 100%;
+}
+.presentation_video {
+    margin-top: 20px;
+    /* background:#0F0F0F; */
+    border-radius: 20px;
+    max-width: 658px;
+    width: 100%;
+
+
+}
+.presentation .btn_blue_200_41 {
+    margin-top: 41px;
+
+}
+
+
+.green {
+    padding: 17px 0 174px 0;
+}
+.green .big_text_red84 {
+    max-width: 790px;
+    width: 100%;
+}
+.green .midle_text_white35_ea {
+    margin-top: 24px;
+}
+.green .btn_blue_200_41 {
+    margin-top: 15px;
+}
+.green_lizard{
+    position: relative;
+}
+.green img {
+    position: absolute;
+    left: 470px;
+    top: -152px;
+}
+
+
+
+/* адаптация    */
+@media( max-width:1439px  ){
+    .franchise_start_wrap1 {
+        float: none;
+    }
+    .franchise_start_wrap3 {
+        
+        margin: 80px auto 0 ;
+        justify-content: space-around;
+        gap: 10px;
+    }
+    .franchise_start_wrap3 div{
+        margin-right: 0 !important;
+    }
+}
+@media( max-width:1200px ){
+    .growplan_wrap{
+        justify-content: space-around;
+    }
+    .growplan_card{
+        margin-right: 0;
+    }
+
+   
+}
+@media( max-width:992px  ){
+    .green img {
+        left: 238px;
+        top: -35px;
+
+    }
+   
+}
+@media( max-width:768px  ){
+
+ 
+
+}
+@media( max-width:576px  ){
+
+
+
+}
+

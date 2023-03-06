@@ -1,0 +1,422 @@
+
+.container{
+    /* overflow: hidden; */
+}
+.peopleroll, .questions, .brightest_impression, .pricebox, .black_box, .withus, .whatinside, .comboset{
+    background: #0F0F0F;
+}
+
+.peopleroll{
+    padding: 39px 0 10px 0;
+}
+
+
+
+.peopleroll .big_text_red_13 {
+    max-width: 655px;
+    width: 100%;
+}
+.peopleroll_wrap {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.questions {
+    padding: 62px 0 10px 0;
+}
+.questions .big_text_red_13 {
+    max-width: 981px;
+    width: 100%;
+    margin-bottom: 27px;
+}
+.questions .btn_blue_200_41{
+    margin-top: 33px;
+}
+.brightest_impression{
+    padding: 59px 0 10px 0;
+}
+.brightest_impression .mes_card{
+    margin-top: 132px;
+}
+
+.brightest_impression_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin-top: 22px; */
+}
+
+/* секция прайсбокс */
+
+.pricebox{
+    padding: 61px 0 40px 0;
+}
+
+.img_first {
+    margin: 10px 0 0 0;
+    /* float: right; */
+    position: absolute;
+    /* overflow: hidden; */
+    left: 383px;
+    top: -391px;
+}
+.psr{
+    position: relative;
+}
+.pricebox .midle_text_red35_198d {
+    margin-top: 24px;
+    max-width: 493px;
+    width: 100%;
+
+}
+.pricebox .midle_text_red35_198d .midle_text_white35_ea {
+    -webkit-text-fill-color: #eaeaea;
+}
+.pricebox_wrap {
+    position: relative;
+    margin-top: 208px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pricebox_wrap_elem1 {
+    display: flex;
+    flex-direction: column;
+}
+.pricebox .big_text_red140 {
+    margin-top: 20px;
+}
+.pricebox_wrap_elem2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 144px;
+}
+.pricebox_wrap_elem3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 236px;
+}
+.pricebox_wrap_elem4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 337px;
+}
+.img_second {
+    position: absolute;
+    right: -41px;
+    top: -46px;
+}
+.img_third {
+    position: absolute;
+    left: -40px;
+    bottom: -215px;
+}
+.pricebox_social {
+    display: flex;
+    margin-top: 254px;
+    position: relative;
+}
+.pricebox_social img {
+    width: 74px;
+    height: 74px;
+    margin-right: 20px;
+    object-fit: cover;
+
+}
+.pricebox_social_descr {
+    position: absolute;
+    bottom: -74px;
+    left: 0;
+}
+.pricebox_social_descr .litle_white_text10_f6_400 {
+   margin-top: 17px;
+}
+.litle_white_text10_f6_400 {
+    margin-top: 3px;
+}
+/* секция прайсбокс end */
+
+
+
+/* секция блекбокс */
+/* .black_box *{
+    overflow: hidden;
+} */
+.black_box{
+    padding: 90px 0 10px 0;
+}
+.black_box .big_text_red_13 {
+    margin-top: 14px;
+    max-width: 721px;
+    width: 100%;
+
+}
+.black_box .midle_text_white35_ea{
+    margin-top: 28px;
+}
+.img_black_box {
+    position: relative;
+    width: 90%;
+}
+.img_black_box img{
+    position: absolute;
+    right: -291px;
+    top: -636px;
+}
+.black_box_wrap {
+    
+    margin-top: 427px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.black_box_wrap_elem {
+    /* display: flex;
+    flex-direction: column; */
+    position: relative;
+}
+.black_box_wrap_elem_img1 {
+    position: absolute;
+    left: -2px;
+    bottom: 32px;
+   
+}
+.black_box_wrap_elem_img2 {
+    position: absolute;
+    left: -117px;
+    bottom: 32px;
+}
+.black_box_wrap_elem_img3 {
+    position: absolute;
+    left: -48px;
+    bottom: 3px;
+}
+.black_box_wrap_elem_img4 {
+    position: absolute;
+    left: -48px;
+    bottom: 32px;
+}
+.img_fone{
+    position: absolute;
+    /* z-index: -1; */
+    bottom: -293px;
+    left: -343px;
+  
+}
+.black_box_wrap_elem_descr {
+}
+.black_box_descr {
+    margin-top: 42px;
+}
+.black_box .big_text_blue_89d {
+    margin-top: 67px;
+    max-width: 943px;
+    width: 100%;
+}
+.black_box  .btn_blue_200_41 {
+    margin-top: 30px;
+}
+.withus , .whatinside {
+    padding: 56px 0 10px 0;
+}
+.withus .big_text_red_13 sup {
+    -webkit-text-fill-color: #eaeaea;
+    font-size: 20px;
+    top: -1.5em;
+
+}
+.withus .big_text_red_13  {
+    max-width: 537px;
+    width: 100%;
+}
+.withus .midle_text_white35_ea_110 ,  .whatinside .midle_text_white35_ea_110 {
+    margin-top: 25px;
+    max-width: 425px;
+    width: 100%;
+}
+.withus_img {
+    margin-top: 10px;
+    float: right;
+}
+.whatinside{
+    padding-bottom: 450px;
+}
+.whatinside_img, .whatinside_fon{
+    position: relative;
+}
+.whatinside_img img{
+    position: absolute;
+    left: -40px;
+    top: -38px;
+    z-index: 1;
+   
+}
+.whatinside_fon img{
+    position: absolute;
+    left: 531px;
+    top: -325px;
+    max-width: 1005px;
+    width: 100%;
+}
+.whatinside_fon img{
+    /* display: none; */
+}
+/* .black_box .big_text_red_13 {
+    margin-top: 30px;
+} */
+  .whatinside .midle_text_white35_ea_110 {
+    margin-top: 23px;
+}
+
+/* секция блекбокс конец */
+
+.comboset{
+    padding: 32px 0 10px 0;
+}
+
+.comboset {
+}
+.comboset img{
+    margin-top: 10px;
+    float: right;
+}
+.comboset .big_text_red_13 {
+    max-width: 700px;
+    width: 100%;
+}
+.comboset .btn_blue_200_41 {
+    margin-top: 32px; 
+}
+
+
+
+
+/* адаптация    */
+@media( max-width:1439px  ){
+ .pricebox .img_first{
+    display: none;
+    }
+    .withus_img {
+        margin-bottom: 20px;
+        float: none;
+    }
+    .whatinside_img img{
+        width: 100%;
+        /* overflow: hidden; */
+        top: 172px;
+    }
+ 
+    .whatinside_fon img{
+        left: 467px;
+        top: -9px;
+        max-width: 617px;
+    }
+    
+    .img_black_box img {
+        right: 27px;
+        top: -247px;
+        max-width: 672px;
+        width: 100%;
+    }
+    .img_fone{
+        max-width: 400px;
+        bottom: -104px;
+        left: -127px;
+    }
+
+
+   
+}
+@media( max-width:1200px ){
+    .brightest_impression_wrap, .pricebox_wrap {
+        justify-content: space-around;
+    }
+   .pricebox_wrap_elem1, .pricebox_wrap_elem2, .pricebox_wrap_elem3, .pricebox_wrap_elem4{
+    margin-top: 0;
+   }
+   .img_second{
+    top: -199px;
+    }
+    .img_third{
+        bottom: -345px;
+    }
+    .pricebox_wrap {
+        margin-top: 180px;
+    }
+    .img_black_box img {
+        right: 155px;
+        top: -145px;
+        max-width: 491px;
+        width: 100%;
+    }
+    .img_fone{
+        display: none;
+    }
+    .whatinside_fon img{
+        left: 250px;
+
+    }
+    .black_box_wrap{
+        gap: 230px;
+      
+    }
+   
+  
+
+   
+}
+@media( max-width:992px  ){
+    .pricebox{
+        overflow: hidden;
+    } */
+  .black_box_wrap{
+    gap: 250px;
+  }
+    .img_black_box img {
+        right: 20px;
+        top: -134px;
+    }
+    .black_box_wrap_elem{
+        width: 200px;
+        text-align: center;
+    }
+    .black_box_wrap_elem_img2{
+        left: -61px;
+    }
+    .black_box_wrap_elem_img4{
+        left: -19px;
+    }
+    .whatinside_fon img{
+        left: 78px;
+
+    }
+   
+}
+@media( max-width:768px  ){
+
+    .img_second{
+        right: -167px;
+    }
+    .withus_img{
+        max-width: 600px;
+        width: 100%;
+    }
+    .whatinside_fon img{
+        left: 121px;
+        top: 33px;
+        max-width: 400px;
+    }
+
+}
+@media( max-width:576px  ){
+
+
+
+}
