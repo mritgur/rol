@@ -1,0 +1,50 @@
+.page_404 {
+    background: #0F0F0F;
+}
+.page_404 {
+    padding: 38px 0 0 10px;
+}
+.page_404_img{
+    float: right;
+    margin-right: 70px;
+    margin-top: 20px;
+    margin: 14px 123px 0 0 ;
+}
+.page_404 .big_text_red_13 {
+    max-width: 550px;
+}
+.page_404 .midle_text_white50_f6 {
+    margin-top: 26px;
+}
+.page_404 .litle_white_text20_f6_700 {
+    margin-top: 30px;
+    display: block;
+    
+}
+
+/* адаптация    */
+@media( max-width:1439px  ){
+    .page_404 img{
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media( max-width:1200px ){
+   
+   
+}
+@media( max-width:992px  ){
+  
+   
+}
+@media( max-width:768px  ){
+
+ 
+
+}
+@media( max-width:576px  ){
+
+
+
+}

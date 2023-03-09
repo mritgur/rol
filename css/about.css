@@ -2,13 +2,15 @@
 .container{
     /* overflow: hidden; */
 }
-.peopleroll, .questions, .brightest_impression, .pricebox, .black_box, .withus, .whatinside, .comboset{
+.peopleroll, .questions, .brightest_impression, .pricebox, .black_box, .withus, .whatinside, .comboset, .faq , .funnyroll{
     background: #0F0F0F;
 }
+
 
 .peopleroll{
     padding: 39px 0 10px 0;
 }
+
 
 
 
@@ -278,7 +280,7 @@
 /* секция блекбокс конец */
 
 .comboset{
-    padding: 32px 0 10px 0;
+    padding: 32px 0 173px 0;
 }
 
 .comboset {
@@ -294,6 +296,42 @@
 .comboset .btn_blue_200_41 {
     margin-top: 32px; 
 }
+
+/* секция фак  */
+
+.faq{
+    padding: 65px 0 10px 0;
+}
+.faq {
+}
+.faq .big_text_red_13 {
+}
+
+.faq_wrap {
+    margin-top: 33px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.funnyroll{
+    padding: 59px 0 10px 0;
+}
+.funnyroll_wrap{
+    display: flex;
+}
+.funnyroll img {
+    /* float: left; */
+}
+.funnyroll .big_text_red_13 {
+    margin-bottom: 40px;
+}
+
+.funnyroll .btn_blue_200_41 {
+    margin-top: 0px;
+}
+
 
 
 
@@ -329,6 +367,13 @@
         max-width: 400px;
         bottom: -104px;
         left: -127px;
+    }
+    .comboset {
+        padding: 32px 0 33px 0;
+    }
+    .comboset img{
+        float: none;
+
     }
 
 
@@ -367,6 +412,11 @@
         gap: 230px;
       
     }
+    .faq_wrap{
+        justify-content: space-around;
+    }
+  
+    
    
   
 

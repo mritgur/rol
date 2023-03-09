@@ -9,6 +9,10 @@
     text-transform: uppercase;
     
 }
+.container{
+    width: 1359px;
+    margin: 0 auto;
+}
 :root{
     --text-red-92d: linear-gradient(92.06deg, #F32C73 13.82%, #8A0C39 90.62%);
     --text-red-198d: linear-gradient(198.3deg, #CD1054 34.99%, #991242 111.83%);
@@ -120,6 +124,13 @@
     text-transform: uppercase;
     color: var(--litle-white-ea);
 }
+.midle_text_white35_f6 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 98%;
+    text-transform: uppercase;
+    color: var(--litle-white-);
+}
 .midle_text_white35_ea_110 {
     font-weight: 700;
     font-size: 35px;
@@ -145,6 +156,14 @@
     text-transform: uppercase;
     color: var(--litle-white-f6)  
 }
+.litle_white_text20_f6_400_98 {
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 98%;
+    text-transform: uppercase;
+    color: var(--litle-white-f6)  
+}
 .litle_white_text20_ea_700 {
     font-weight: 700;
     font-size: 20px;
@@ -156,6 +175,13 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 98%;
+    text-transform: uppercase;
+    color: var(--litle-white-ea)
+}
+.litle_white_text20_ea_400_110 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 110%;
     text-transform: uppercase;
     color: var(--litle-white-ea)
 }
@@ -179,6 +205,13 @@
     line-height: 98%;
     text-transform: uppercase;
     color: var(--litle-white-f6);   
+}
+.litle_white_text15_ea_400_160{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: var(--litle-white-ea);   
 }
 .litle_white_text15_f6_700{
     font-weight: 700;
@@ -216,6 +249,13 @@
     line-height: 98%;
     text-transform: uppercase;
     color: var(--litle-white-dd);
+}
+.midle_text_white50_f6{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 98%;
+    text-transform: uppercase;
+    color: var(--litle-white-f6);
 }
 .big_text_white70_ea{
     display: inline-block;
@@ -312,7 +352,7 @@
     cursor: pointer;
 }
 /* СИНИЕ */
-.btn_blue_200_41 {
+.btn_blue_200_41 , .btn_blue_275_41 {
     width: 200px;
     text-decoration: none;
     height: 41px;
@@ -321,8 +361,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: 200px;
+    /* background-size: 200px; */
     cursor: pointer;
+}
+ .btn_blue_275_41 {
+    width: 275px;
+    height: 41px;
 }
 /* .btn_blue_200_41 {
     width: 200px;
@@ -490,7 +534,7 @@
 
  /* карточки 308 на 340 */
 
- .card308_340_bg_blue, .card308_340_bg_red, .card308_340_bg_purple, .card1002_152_bg_purple {
+ .card308_340_bg_blue, .card308_340_bg_red, .card308_340_bg_purple, .card1002_152_bg_purple , .card_faq_bg_purple {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -501,12 +545,17 @@
     transition: 0.3s;
     padding: 3px;
 }
+.card_bg_purple{
+    height: auto;
+    width: auto;
+}
 .card308_340_bg_red{
     background: var(--text-red-92d);
 }
-.card308_340_bg_purple, .card1002_152_bg_purple{
+.card308_340_bg_purple, .card1002_152_bg_purple , .card_faq_bg_purple{
     background: linear-gradient(92.06deg, #F32C73 50%, #0D22E1 100%);;
 }
+
 
 .card308_340_bg_blue:hover, .card308_340_bg_red:hover, .card308_340_bg_purple:hover {
     background: linear-gradient(92.06deg, #707070 70%, #707070    100%);
@@ -518,7 +567,7 @@
     height: 334px; */
     width: 100%;
     height: 100%;
-    background: #0F0F0F;
+    background: #0F0F0F; 
     /* box-shadow: 0px 0px 80px #0A51D9; */
     border-radius: 20px;
     padding: 17px 12px;
@@ -874,4 +923,486 @@ padding: 16px 20px;
     left: 0;
     top: -104px;
     margin-bottom: 40px;
+}
+
+/* card faq/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.card_faq_bg_purple{
+    height: 59px;
+  
+    width: 308px;
+}
+.card_faq {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 100%;
+    height: 100%;
+    background: #0F0F0F;
+    border-radius: 20px;
+    transition: 0.3s;
+    padding: 16px 11px 11px 17px;
+}
+.card_faq img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 10px;
+    object-fit: cover;
+    right: 6px;
+    top: 21px;
+    cursor: pointer;
+}
+.card_faq_title {
+    /* height: 100%; */
+}
+.card_faq_descr{
+    display: none;
+    margin-top: 35px; 
+}
+.height_auto{
+    height: auto;
+}
+.transform180deg{
+    transform: rotate(180deg);
+}
+
+
+/* карточка 310 на 1094 (корзина)...///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.card310_1094_bg {
+    height: 1094px;
+    width: 310px;
+    background:  linear-gradient(180deg, #CD1054 -44.69%, #260DC1 117.81%);
+    box-shadow: 0px 4px 80px rgba(205, 30, 93, 0.8);
+    padding: 3px;
+    border-radius: 20px;
+}
+.card310_1094 {
+    height: 100%;
+    width: 100%;
+    background: #0F0F0F;
+    border-radius: 20px;
+    padding: 16px 11px;
+
+}
+
+
+/* карточки 308 на 169  .............///////////////////////////////////////////////////////////////////////////////////    */
+
+.card308_169_bg {
+    height: 169px;
+    width: 308px;
+    padding: 3px;
+    border-radius: 20px;
+}
+.card308_169 {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    background:#0F0F0F;
+    padding: 9px 0 0 7px;
+}
+.card308_169 img {
+    height: 90px;
+    width: 93px;
+   float: left;
+}
+.card308_169_wrap {
+}
+ .card308_169 .litle_white_text15_f6_400 {
+    max-width: 155px ;
+    width: 100%;
+    margin: 11px 0 0 120px;
+
+}
+.card308_169  .litle_white_text20_ea_400 {
+    margin: 15px 0 0 120px;
+}
+.card308_169 .midle_text_white50_dd {
+    margin: 12px 0 0 4px;
+}
+.card308_169 .litle_white_text15_ea_400_160 {
+    margin: 5px 46px 0 13px;
+}
+
+/* additionally card with count ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.additionally_card {
+    width: 127px;
+    height: auto;
+    padding-bottom: 10px;
+    background:#0F0F0F;
+}
+.additionally_card_img {
+    width: 127px;
+    height: 127px;
+    object-fit: contain;
+}
+
+.additionally_card_title {
+    text-align: center;
+}
+.additionally_card_wrap_content_counter {
+    width: 58px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin: 14px auto 0;
+}
+.additionally_card_wrap_content_minus, .additionally_card_wrap_content_plus {
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+    
+}
+.midle_text_white35_f6 {
+}
+.additionally_card_wrap_content_quantity {
+    line-height: 98%;
+}
+.additionally_card_wrap_content_plus {
+}
+
+.yourpack_pack_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 192px;
+}
+.yourpack_pack_wrap img {
+    width: 192px;
+    height: 132px;
+}
+.yourpack_pack_title {
+    margin-top: 8px;
+}
+
+/* корзина форма ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.card_form{
+    padding: 5px 0 0 0;
+}
+.card_field {
+    margin-bottom: 10px;
+}
+.card_field-input {
+    display: block;
+    width: 100%;
+    height: 31px;
+    padding: 10px 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 98%;
+    text-transform: uppercase;
+    color: var(--litle-white-f6); 
+    background: #0F0F0F;
+    /* background-clip: padding-box; */
+    border:none;
+    border-bottom: 1px solid #2563DA;
+    
+    /* transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+}
+.card_form_delivery{
+    margin: 17px 0 11px 3px;
+}
+.card_field-input::placeholder{
+    color: var(--litle-white-f6); 
+}
+/* .card_field-input::placeholder:focus{
+    color: red;
+} */
+.card_field-input:focus{
+    color: var(--litle-white-f6); 
+    /* border: none; */
+    outline: none;
+}
+.card_form_radio_delivery{
+    margin-bottom: 2px;
+}
+.card_form_radio_delivery input[type=radio] {
+	display: none;
+}
+.card_form_radio_delivery label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 23px;
+	margin-right: 0;
+	/* line-height: 18px; */
+	user-select: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 98%;
+    text-transform: uppercase;
+    color: var(--litle-white-f6);  
+}
+.card_form_radio_delivery label:before {
+	content: "";
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 2px;
+	bottom: 0px;
+	background: url(/img/card/form_radio_delivery_unchecked.svg) 0 0 no-repeat;
+}
+/* Checked */
+.card_form_radio_delivery input[type=radio]:checked + label:before {
+	background: url(/img/card/form_radio_delivery_checked.svg) 0 0 no-repeat;
+}
+
+.card_field_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.card_field-input-home{
+        width: 29px ;
+}
+.card_field-input-housing{
+    width:44px ;
+}
+.card_field-input-floor{
+    width: 29px ;
+}
+.card_field-input-flat{
+    width: 57px ;
+}
+.card_field-input-intercom{
+    width: 59px ;
+}
+.card_form_deliveryaddress{
+    margin: 13px 0 7px 1px;
+}
+.card_field_message {
+    margin-top: 10px;
+    width: 100%;
+    height: 99px;
+    background: linear-gradient(180deg, #CD1054 -44.69%, #260DC1 117.81%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+ .card_field-input {
+
+}
+.card_field_message .card_field-input {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 19px 23px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 98%;
+    text-transform: uppercase;
+    color: var(--litle-white-f6); 
+    background: #0F0F0F;
+    /* background-clip: padding-box; */
+    border:none;
+    /* border-bottom: 1px solid #2563DA; */
+    border-radius: 20px;
+    resize: none;
+    
+    /* transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+}
+.card_form_dateandtime{
+    margin: 17px 0 10px 3px;
+}
+
+/* нужна сдача /////////////////////////////////////////////////////////////////////////////////// */
+
+.card_form_needchange{
+    margin: 174px 0 15px 5px;
+}
+.card_form_needchange_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.card_form_needchange_wrap .card_form_radio_delivery label{
+    display: inline-block;
+	cursor: pointer;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 73px;
+	border: 1px solid #CD1054;
+	border-radius: 20px;
+	user-select: none;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 98%;
+    text-transform: uppercase;
+    color: var(--litle-white-f6); 
+    padding: 0;
+}
+
+/* Checked */
+.card_form_needchange_wrap .card_form_radio_delivery input[type=radio]:checked + label {
+	color: #1543BA;
+    background: linear-gradient(178.69deg, #FFFFFF 1.12%, #CFCFCF 113.56%);
+    border: none;
+}
+.card_form_needchange_wrap .card_form_radio_delivery label::before{
+  display: none;
+}
+/* двое под луной .......................................................................................... */
+
+.two_under_the_moon {
+    margin-top: 10px;
+    width: 137px;
+    height: 40px;
+    background: linear-gradient(180deg, #CD1054 -44.69%, #260DC1 117.81%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin: 31px 0 39px 0;
+}
+.two_under_the_moon:focus {
+   
+    background: none;
+   
+}
+ .card_field-input {
+
+}
+
+.two_under_the_moon  label{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #0F0F0F;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+   
+}
+/* Checked */
+.two_under_the_moon  input[type=radio]:checked + label {
+	color: #1543BA;
+    background: linear-gradient(178.69deg, #FFFFFF 1.12%, #CFCFCF 113.56%);
+    border: none;
+}
+.two_under_the_moon  label:before{
+    display: none;
+}
+
+.iagreewrap input[type=checkbox] {
+	display: none;
+}
+.iagreewrap .card_form_radio_delivery  {
+    margin-bottom: 10px;
+}
+.iagreewrap .card_form_radio_delivery label{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 98%;
+    text-transform: uppercase;
+    color: var(--litle-white-f6); 
+}
+.iagreewrap .card_form_radio_delivery label span{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 98%;
+    text-transform: uppercase;
+    display: inline-block;
+    background: var(--text-red-198d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+.iagreewrap .card_form_radio_delivery label:before {
+	content: "";
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 2px;
+	bottom: auto;
+    top: -3px;
+	background: url(/img/card/form_radio_delivery_unchecked.svg) 0 0 no-repeat;
+}
+/* Checked */
+.iagreewrap .card_form_radio_delivery input[type=checkbox]:checked + label:before {
+	background: url(/img/card/form_radio_delivery_checked.svg) 0 0 no-repeat;
+}
+.card_total_wrap{
+    display: flex;
+    margin: 23px 0 0 3px;
+    align-items: end;
+}
+.card_total_title{
+    margin-right: 17px;
+}
+.card_total_price{
+    line-height: 80%;
+}
+.card_total_oldprice{
+    color: #7B7B7B;
+    text-decoration: line-through;
+    line-height: 80%;
+    margin-right: 17px;
+}
+.card_submit{
+    margin: 20px auto 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bg_red{
+    background: linear-gradient(92.06deg, #F32C73 13.82%, #8A0C39 90.62%);
+}
+
+.bg_blue{
+    background: linear-gradient(107.31deg, #4786FF 9.24%, #0C44B1 52.51%);
 }

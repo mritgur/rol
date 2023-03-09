@@ -1,0 +1,140 @@
+.card {
+    background: #0F0F0F;
+}
+.card {
+    padding: 40px 0 26px 0;
+}
+.card {
+}
+.card .big_text_red_13 {
+}
+.card_wrap{
+    display: flex;
+    margin-top: 28px;
+    flex-wrap: wrap;
+}
+/* левая часть   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.card .card_wrap_left {
+    max-width: 1038px;
+    width: 100%;
+}
+.card_wrap_title {
+   display: flex;
+   gap: 40px;
+   margin-bottom: 18px;
+}
+.card_wrap_title_name {
+    max-width: 308px;
+    width: 100%;
+}
+.card_wrap_title_message {
+    max-width: 308px;
+    width: 100%;
+}
+.card_wrap_title_quantity {
+    /* max-width: 308px;
+    width: 100%; */
+}
+.card_wrap_title_cost {
+    margin-left: 44px;
+    width: auto;
+}
+.card_wrap_content {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+
+.card_wrap_content_name {
+}
+
+.card_wrap_content_message {
+}
+
+.card_wrap_content_counter {
+    max-width: 123px;
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card_wrap_content_minus, .card_wrap_content_plus {
+    width: 19px;
+    height: 19px;
+    margin-top: 14px;
+}
+.big_text_white70_ea {
+}
+.card_wrap_content_quantity {
+}
+.card_wrap_content_plus {
+}
+.midle_text_white35_f6 {
+}
+.card_wrap_content_cost {
+    width: auto;
+    margin-top: 14px;
+    margin-left: 24px;
+}
+.additionally_title{
+    margin: 40px 0 0 5px;
+}
+.additionally_wrap, .yourprice_wrap{
+    display: flex;
+    gap: 40px;
+    margin-top: 0px;
+}
+.yourprice_title{
+margin: 13px 0 0 6px;
+}
+.yourprice_wrap{
+}
+
+.yourpack_title{
+    margin: 20px 0 14px 6px;
+}
+.form_radio_delivery{
+    margin-bottom: 5px;
+}
+.form_radio_delivery input[type=radio] {
+	display: none;
+}
+.form_radio_delivery label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 32px;
+	margin-right: 0;
+	/* line-height: 18px; */
+	user-select: none;
+}
+.form_radio_delivery label:before {
+	content: "";
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 7px;
+	bottom: 4px;
+	background: url(/img/card/form_radio_delivery_unchecked.svg) 0 0 no-repeat;
+}
+/* Checked */
+.form_radio_delivery input[type=radio]:checked + label:before {
+	background: url(/img/card/form_radio_delivery_checked.svg) 0 0 no-repeat;
+}
+
+.yourpack_pack_location{
+    margin: 21px 0 0 5px;
+}
+
+
+
+
+/* правая часть ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  */
+
+.card .card_wrap_right {
+    padding-top: 37px;
+}

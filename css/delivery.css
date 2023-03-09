@@ -1,0 +1,100 @@
+
+
+.delivery {
+    background: #0F0F0F;
+}
+.delivery {
+    padding: 40px 0 122px 0;
+}
+.delivery img {
+    margin-top: 36px;
+    max-width: 1348px;
+    width: 100%;
+    max-height: 690px;
+    height: 100%;
+    border-radius: 20px;
+}
+.delivery .big_text_red_13 {
+}
+ .delivery_wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0 0 5px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.delivery .midle_text_white35_ea_110 {
+   
+}
+.delivery .litle_white_text20_ea_400_110 {
+    margin-top: 5px;
+}
+
+.delivery_pay_title {
+    margin-top: 65px;
+}
+
+.delivery_pay_wrap {
+    margin: 30px 0 0 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.delivery_gift_title {
+    margin-top: 63px;
+}
+.delivery_gift_elem{
+    max-width: 670px;
+    width: 100%; 
+    margin: 30px 0 0 5px;
+}
+.delivery_img {
+    position: relative;
+}
+.delivery_img img {
+    position: absolute;
+    height: auto;
+    width: auto;
+    right: -33px;
+    bottom: -97px;
+}
+.delivery .btn_blue_200_41{
+    margin-top: 31px;
+}
+
+
+/* адаптация    */
+@media( max-width:1439px  ){
+    .delivery_img img {
+        max-height: 300px;
+    }
+}
+@media( max-width:1200px ){
+    .delivery_img img {
+        max-height: 200px;
+        right: 189px;
+        bottom: -130px;
+    }
+    
+   
+}
+@media( max-width:992px  ){
+    .delivery_img img {
+        max-height: 200px;
+        right: -14px;
+        bottom: -130px;
+    }
+  
+   
+}
+@media( max-width:768px  ){
+
+ 
+
+}
+@media( max-width:576px  ){
+
+
+
+}
