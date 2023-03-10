@@ -235,6 +235,13 @@
     text-transform: uppercase;
     color: var(--litle-white-ff); 
 }
+.litle_white_text10_dd_700{
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 98%;
+    text-transform: uppercase;
+    color: var(--litle-white-dd); 
+}
 
 .big_text_white84{
     font-weight: 700;
@@ -486,7 +493,7 @@
    /* карточки 308 на 308   */
 
 
-   .card308_308_bg_blue, .card308_308_bg_red, .card658_334_bg_blue {
+   .card308_308_bg_blue, .card308_308_bg_red, .card658_334_bg_blue, .card655_340_bg_blue {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -504,7 +511,7 @@
     background: linear-gradient(92.06deg, #707070 70%, #707070    100%);
 }
 
-.card308_308_blue, .card308_308_red, .card658_334_blue {
+.card308_308_blue, .card308_308_red, .card658_334_blue , .card655_340_blue {
     position: relative;
     width: calc( 100% - 6px ) ;
     height: calc( 100% - 6px );
@@ -534,7 +541,7 @@
 
  /* карточки 308 на 340 */
 
- .card308_340_bg_blue, .card308_340_bg_red, .card308_340_bg_purple, .card1002_152_bg_purple , .card_faq_bg_purple {
+ .card308_340_bg_blue, .card308_340_bg_red, .card308_340_bg_purple, .card1002_152_bg_purple , .card_faq_bg_purple , .card133_147_bg_red  {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -549,7 +556,7 @@
     height: auto;
     width: auto;
 }
-.card308_340_bg_red{
+.card308_340_bg_red, .card133_147_bg_red{
     background: var(--text-red-92d);
 }
 .card308_340_bg_purple, .card1002_152_bg_purple , .card_faq_bg_purple{
@@ -557,7 +564,7 @@
 }
 
 
-.card308_340_bg_blue:hover, .card308_340_bg_red:hover, .card308_340_bg_purple:hover {
+.card308_340_bg_blue:hover, .card308_340_bg_red:hover, .card308_340_bg_purple:hover, .card133_147_bg_red:hover {
     background: linear-gradient(92.06deg, #707070 70%, #707070    100%);
 }
 
@@ -1360,6 +1367,91 @@ padding: 16px 20px;
 }
 
 
+/* карточка 655 на 340............................................................................... */
+.card655_340_bg_blue{
+    width: 655px;
+    height: 340px;
+}
+.card655_340_bg_blue .card658_334_blue{
+    padding: 14px 19px;
+}
+.card655_340_bg_blue .card658_334_structure{
+    max-width: 160px;
+    width: 100%;
+    margin-top: 10px;
+}
+.card655_340_bg_blue .card658_334_goodscount_wrap{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    margin-top: 81px;
+}
+.card655_340_bg_blue .card658_334_goodscount_wrap *{
+    line-height: 98%;
+}
+.card655_340_bg_blue .card658_334_img{
+    width: 184px;
+    height: 232px;
+    left: auto;
+    right: 79px;
+    top: 16px;
+    object-fit: cover;
+    transform: none;
+
+}
+.card655_340_bg_blue .card658_334_goodsbtn{
+    width: 265px;
+}
+.card655_340_bg_blue .sushi_icons{
+    margin: 0;
+    position: absolute;
+    left: 183px;
+    top: 19px;
+ 
+}
+.card655_340_bg_blue .card658_334_goodsbtn {
+    bottom: 21px;
+    right: 24px;
+
+}
+.card655_340_bg_blue{
+ 
+}
+ 
+/* карточка 133 на 147 ............................................................................................................ */
+.card133_147_bg_red{
+    width: 133px;
+    height: 147px;
+}
+.card133_147_bg_red img{
+    height: 83px;
+    width: 83px;
+    object-fit: cover;
+    left: 0;
+    top: 0;
+}
+.card133_147_bg_red .card308_340{
+padding: 4px;
+}
+.card133_147_bg_red .sushi_icons{
+
+
+}
+.card133_147_bg_red{
+
+}
+.card133_147_bg_red{
+
+}
+.card133_147_bg_red{
+
+}
+.card133_147_bg_red{
+
+}
+.card133_147_bg_red{
+
+}
 
 
 
