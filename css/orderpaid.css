@@ -1,0 +1,127 @@
+
+.orderpaid , .mistake, .order_place{
+    background: #0F0F0F;
+    position: relative;
+}
+.orderpaid , .mistake, .order_place{
+    padding: 39px 0 380px 0px;
+}
+
+.orderpaid {
+}
+.orderpaid a, .order_place a{
+    text-decoration: none;
+}
+.orderpaid_roll_car{
+    position: absolute;
+    right: 31px;
+    bottom: -249px;
+}
+.orderpaid  .big_text_red_13 {
+    max-width: 450px;
+    width: 100%;
+}
+.orderpaid .btn_blue_200_41, .mistake .btn_blue_200_41, .order_place .btn_blue_200_41{
+    margin-top: 31px;
+}
+
+.orderpaid_statusorder_title {
+    margin-top: 77px;
+}
+.status_order_wrap {
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+}
+.status_order_wrap img, .orderpaid_social_wrap img{
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+    margin-right: 12px;
+}
+
+.status_order_wrap_phone {
+    margin-right: 5px;
+}
+.orderpaid_social_title {
+    margin-top: 74px;
+}
+.orderpaid_social_wrap {
+    margin-top: 11px;
+    display: flex;
+    align-items: center;
+}
+.orderpaid_social_wrap img{
+    margin-right: 21px;
+
+}
+/* mistake ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.mistake .container{
+    overflow: hidden;
+}
+.mistake_left_img {
+    position: absolute;
+    left: -42px;
+    bottom: -76px;
+
+}
+.mistake_right_img {
+    position: absolute;
+    right: -39px;
+    top: -817px;
+}
+
+.mistake_right_img {
+}
+.img_wrap{
+    position: relative; 
+    height: 600px;
+}
+
+
+
+/* заказ оформлен ......................................................................... */
+
+.order_place_roll{
+    position: absolute;
+    right: -14px;
+    top: 44px;
+    }
+@media( max-width:1200px ){
+   
+   
+}
+@media( max-width:992px  ){
+    .img_wrap{
+        
+        height: 350px;
+    }
+    .mistake_left_img,.mistake_right_img{
+        width: 50%;
+        object-fit: contain;
+    }
+    .mistake_left_img {
+        bottom: -92px;
+    }
+    .mistake_right_img {
+        top: -544px;
+    }
+    .orderpaid , .mistake{
+        padding: 39px 0 100px 0px;
+    }
+}
+@media( max-width:768px  ){
+
+    .mistake_left_img {
+        bottom: -10px;
+    }
+    .mistake_right_img {
+        right: -21px;
+    }
+
+}
+@media( max-width:576px  ){
+
+
+
+}
