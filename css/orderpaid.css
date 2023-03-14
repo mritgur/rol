@@ -1,5 +1,5 @@
 
-.orderpaid , .mistake, .order_place{
+.orderpaid , .mistake, .order_place, .orderpaid_card{
     background: #0F0F0F;
     position: relative;
 }
@@ -17,7 +17,7 @@
     right: 31px;
     bottom: -249px;
 }
-.orderpaid  .big_text_red_13 {
+.orderpaid  .big_text_red_13, .orderpaid_card .big_text_red_13 {
     max-width: 450px;
     width: 100%;
 }
@@ -86,9 +86,85 @@
     position: absolute;
     right: -14px;
     top: 44px;
-    }
+}
+
+    
+
+    /* orderpaid_card........................................................................................ */
+.orderpaid_card{
+    padding: 39px 0  288px 0;
+}
+.orderpaid_card .orderpaid_roll_car{
+    width: 225px;
+    height: 213px;
+    object-fit: contain;
+}
+.orderpaid_card_wrap{
+    margin-top: 29px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.orderpaid_card_wrap_left{
+    max-width: 700px;
+    width: 100%;
+}
+  .orderpaid_card  .card658_334_bg_blue{
+    margin-right: 20px;
+  }
+  .orderpaid_card .tns-ovh{
+    padding-left: 0;
+  }
+  .orderpaid_card_wrap_centr{
+    max-width: 316px;
+    width: 100%;
+  }
+   .orderpaid_card_wrap_centr .btn_blue_200_41{
+    width: 265px;
+  }
+
+  .orderpaid_card_wrap_right{
+    padding-left: 32px;
+  }
+
+  .orderpaid_card_wrap_right_imgs{
+    display: flex;
+    width: 173px;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 16px;
+  }
+  .orderpaid_card_wrap_right_imgs img{
+    object-fit: contain;
+  }
+ 
+  .orderpaid_card .stock_bigslider_arrow{
+    width: 62px;
+    height: 62px;
+    object-fit: cover;
+    right: 17px;
+    top: -154px;
+  }
+  .orderpaid_card .btn_blue_200_41 {
+        margin-top: 14px;
+  }
+
+
+  .orderpaid_card .orderpaid_roll_car{
+    right: -25px;
+    bottom: -319px;
+  }
+
+
+
+
+
+
+
 @media( max-width:1200px ){
-   
+   .orderpaid_card_wrap{
+    justify-content: space-around;
+    gap: 30px;
+   }
    
 }
 @media( max-width:992px  ){

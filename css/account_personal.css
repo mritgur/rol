@@ -1,0 +1,157 @@
+
+
+.account_personal{
+    padding-bottom: 210px;
+}
+.account_personal .tabheader__items{
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+.tabheader__item {
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+.tabheader__item_active{
+    background: linear-gradient(198.3deg, #CD1054 34.99%, #991242 111.83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    border-bottom: 3px solid #CD1054;
+}
+.tabcontent{
+    display: none;
+}
+/* account_date ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.account_date .card310_504_bg{
+    margin-top: 31px;
+}
+
+.price_box_wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.prize_box_img {
+    width: 351px;
+}
+.prize_box_img img {
+    position: absolute;
+    bottom: -124px;
+    left: -193px;
+}
+.psrel {
+}
+.prize_box_img .btn_blue_275_41 {
+    margin-top: 368px;
+    margin: 368px 0 0 30px;
+    z-index: 10;
+    position: relative;
+}
+.price_box_wrap_descr{
+    max-width: 338px;
+    width: 100%;
+    padding-right: 80px;
+    margin-top: 29px;
+}
+.price_box_wrap_descr2{
+    max-width: 351px;
+    width: 100%;
+    padding-right: 127px;
+    margin-top: 23px;
+}
+.price_box_wrap_open{
+    display: flex;
+}
+.price_box_wrap_open_count{
+    margin-left: 5px;
+}
+.price_box_wrap_descr2 .psrel{
+    margin-top: 15px;
+}
+.price_box_wrap_descr2 .psrel img{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.price_box_wrap_descr2 .card223_41_bg {
+    margin-top: 16px;
+}
+.price_box_wrap_descr3{
+    width: 230px;
+    margin-top: 22px;
+}
+.price_box_wrap_descr3 .midle_text_white35_ea{
+margin-bottom: 50px;
+}
+.price_wrap_card{
+    margin-left: 147px;
+    /* margin-top: 50px; */
+    margin-bottom: 81px;
+}
+.account_personal .whatinside_card{
+    margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* адаптация    */
+@media( max-width:1439px  ){
+    .price_box_wrap{
+        justify-content: space-around;
+        gap: 30px;
+    }
+    .account_personal .whatinside_card{
+        margin-top: 15px;
+    }
+   
+}
+@media( max-width:1200px ){
+    .price_box_wrap_descr{
+        display: flex;
+        align-items: center;
+    }
+    .account_personal .whatinside_card{
+        margin-top: 15px;
+        margin: 15px 50px;
+    }
+   
+}
+@media( max-width:992px  ){
+  
+   
+}
+@media( max-width:768px  ){
+    .account_personal{
+        overflow: hidden;
+    }
+ 
+
+}
+@media( max-width:576px  ){
+
+
+
+}

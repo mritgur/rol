@@ -1,9 +1,9 @@
 
 
-.delivery {
+.delivery, .account_personal {
     background: #0F0F0F;
 }
-.delivery {
+.delivery, .account_personal {
     padding: 40px 0 122px 0;
 }
 .delivery img {

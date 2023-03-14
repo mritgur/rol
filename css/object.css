@@ -131,6 +131,13 @@
     text-transform: uppercase;
     color: var(--litle-white-);
 }
+.midle_text_white35_f6_110 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: var(--litle-white-);
+}
 .midle_text_white35_ea_110 {
     font-weight: 700;
     font-size: 35px;
@@ -153,6 +160,14 @@
     text-decoration: none;
     font-size: 20px;
     line-height: 110%;
+    text-transform: uppercase;
+    color: var(--litle-white-f6)  
+}
+.litle_white_text20_f6_400_140 {
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 140%;
     text-transform: uppercase;
     color: var(--litle-white-f6)  
 }
@@ -192,6 +207,13 @@
     text-transform: uppercase;
     color: var(--litle-white-dd)
 }
+.litle_white_text20_dd_700_98 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 98%;
+    text-transform: uppercase;
+    color: var(--litle-white-dd)
+}
 .litle_white_text20_dd_400 {
     font-weight: 400;
     font-size: 20px;
@@ -220,9 +242,30 @@
     text-transform: uppercase;
     color: var(--litle-white-f6);   
 }
+.litle_white_text15_f6_700_110{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: var(--litle-white-f6);   
+}
 
 .litle_white_text10_f6_400{
     font-weight: 400;
+    font-size: 10px;
+    line-height: 98%;
+    text-transform: uppercase;
+    color: var(--litle-white-f6); 
+}
+.litle_white_text10_f6_400_110{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: var(--litle-white-f6); 
+}
+.litle_white_text10_f6_700{
+    font-weight: 700;
     font-size: 10px;
     line-height: 98%;
     text-transform: uppercase;
@@ -237,6 +280,13 @@
 }
 .litle_white_text10_dd_700{
     font-weight: 700;
+    font-size: 10px;
+    line-height: 98%;
+    text-transform: uppercase;
+    color: var(--litle-white-dd); 
+}
+.litle_white_text10_dd_400{
+    font-weight: 400;
     font-size: 10px;
     line-height: 98%;
     text-transform: uppercase;
@@ -270,11 +320,8 @@
     font-size: 70px;
     line-height: 98%;
     text-transform: uppercase;
-    background: var(--litle-white-ea);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+    color: var(--litle-white-ea);
+  
 }
 
 
@@ -511,7 +558,7 @@
     background: linear-gradient(92.06deg, #707070 70%, #707070    100%);
 }
 
-.card308_308_blue, .card308_308_red, .card658_334_blue , .card655_340_blue {
+.card308_308_blue, .card308_308_red, .card658_334_blue , .card655_340_blue, .card308_548_blue {
     position: relative;
     width: calc( 100% - 6px ) ;
     height: calc( 100% - 6px );
@@ -660,13 +707,62 @@ justify-content: end;
   */
 
  
-  /* карточка 658 на 334 */
+  /* карточка 658 на 334  и 334 на 658 */
+.logocard_img{
+    width: 150px;
+    height: 47px;
+    object-fit: contain;
+    position: absolute;
+    
+}
+.card658_334_blue .logocard_img{
+
+    right: -22px;
+    top: -44px;
+}
+.card308_548_blue .logocard_img{
+    left: 149px;
+    top: 13px;
+    
+    
+}
+.card308_548_blue .card658_334_sex{
+    margin-top: 175px;
+}
+.card308_548_blue .card658_334_structure, .card308_548_blue .card658_334_value {
+    margin-top: 25px;
+}
+.card308_548_blue .card658_334_man_img, .card308_548_blue .card658_334_people_photo  {
+    width: 142px;
+    height: 142px;
+    object-fit: contain;
+    top: 77px;
+    left: 15px;
+    
+}
+.card308_548_blue .card658_334_people_photo {
+    top: 77px;
+    left: 150px;
+}
+
+
+
+
 
 .card658_334_bg_blue{
 width: 658px ;
 height: 334px ;
 }
+/* .card308_548_bg_blue{
+width: 334px ;
+height: 658px ;
+} */
 .card658_334_blue{
+width: calc( 100% - 6px ) ;
+height: calc( 100% - 6px ) ;
+padding: 16px 20px;
+}
+.card308_548_blue{
 width: calc( 100% - 6px ) ;
 height: calc( 100% - 6px ) ;
 padding: 16px 20px;
@@ -1434,27 +1530,230 @@ padding: 16px 20px;
 padding: 4px;
 }
 .card133_147_bg_red .sushi_icons{
-
+    height: 72px;
+    width: 30px;
+    margin-top: 2px;
+}
+.card133_147_bg_red .sushi_icons_sharp_paper , .card133_147_bg_red .sushi_icons_sharp_fire, .card133_147_bg_red .sushi_icons_sharp_leaf{
+    width: 10px;
+    height: 10px;
+    object-fit: cover;
+}
+.card133_147_bg_red .sushi_icons_sharp_star{
+    width: 11px;
+    height: 11px;
 
 }
-.card133_147_bg_red{
+.card133_147_bg_red .sushi_icons_sharp_gantel{
+    width: 13px;
+    height: 8px;
+    object-fit: cover;
+}
+.card133_147_bg_red .sushi_icons_red{
+    width: 10px;
+    height: 7px;
+    object-fit: cover;
+}
+.card133_147_bg_red .btn_blue_84_41{
+    width: 43px;
+    height: 21px;
+}
+.card133_147_bg_red .sushi_icons_rating_number {
+    margin-right: 3px;
+} 
+.card133_147_bg_red .sushi_icons_sharp_paper {
+    margin-right: 4px;
+}
+.card133_147_bg_red .card308_340_title {
+    margin-top: 11px;
+    margin: 11px 0 0 3px;
+}
+.card133_147_bg_red .card308_340_data {
+    margin: 4px 2px 0 3px;
+}
+
+/* <!-- карточка 310 на  504 личного кабинета ................................................................................... --> */
+
+.card310_504_bg {
+    width: 310px;
+    min-height: 504px;
+    border-radius: 20px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-.card133_147_bg_red{
+.card310_504 {
+    min-height: 498px;
+    height: 100%;
+    width: 100%;
+    border-radius:20px;
+    background: #0F0F0F;
+    padding: 11px;
+}
+.card310_504_img{
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+.card_acount{
+    margin-top: 3px;
+}
+.card_acount .card_field{
+    margin-bottom: 12px;
+}
+
+.card_acount .card223_41_bg {
+    margin-top: 25px;
 
 }
-.card133_147_bg_red{
-
-}
-.card133_147_bg_red{
-
-}
-.card133_147_bg_red{
+.card310_504 .psrel img{
+    position: absolute;
+    right: 0;
+    bottom: 16px;
 
 }
 
+.card_acount .card_form_radio_delivery{
+    margin-top: 12px;
+}
+.card_acount .card_form_radio_delivery input[type=checkbox] {
+	display: none;
+}
+.card_acount .card_form_radio_delivery label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 0;
+	margin-right: 0;
+	/* line-height: 18px; */
+	user-select: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 98%;
+    text-transform: uppercase;
+    color: var(--litle-white-f6);  
+}
+.card_acount .card_form_radio_delivery label:before {
+	content: "";
+	display: inline-block;
+	width: 93px;
+	height: 33px;
+	position: absolute;
+	left: auto;
+    right: -114px;
+    bottom: -8px;
+	background: url(/img/icons/acount/account_stock_off.svg) 0 0 no-repeat;
+}
+/* Checked */
+.card_acount .card_form_radio_delivery input[type=checkbox]:checked + label:before {
+	background: url(/img/icons/acount/account_stock_on.svg) 0 0 no-repeat;
+}
+.card223_41_bg, .card310_178_bg {
+    width: 223px;
+    min-height: 41px;
+    border-radius: 20px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card223_41, .card310_178 {
+    min-height: 35px;
+    height: 100%;
+    width: 100%;
+    border-radius:20px;
+    background: #0F0F0F;
+    padding: 11px;
+}
+.card_acount  .card_acount_attention_img{
+    position: absolute;
+    right: 4px;
+    top: -37px;
+}
+
+/* карточка 310 на 178 .......................................................................................... */
+.card310_178_bg {
+    width: 310px;
+    min-height: 178px;
+}
+.card310_178 {
+    padding: 20px 13px;
+    min-height: 172px;
+    height: 100%;
+}
+.card310_178_display1 {
+}
+.card310_178_display1 .litle_white_text15_f6_700_110 {
+    width: 215px;
+    margin: 0 auto;
+    text-align: center;
+}
+.account_register, .send_register {
+    margin-top: 6px;
+}
+.card310_178_display1 .btn_blue_275_41 {
+    margin-top: 20px;
+}
+
+.card310_178_display2 .litle_white_text15_f6_700_110{
+    text-align: center;
+}
+.card310_178_display2{
+
+}
+.card310_178_display2{
+
+}
+.send_register .card_field_wrap{
+    justify-content: start;
+    margin: 0 auto 10px;
+    gap: 11px;
+    width: 128px;
+
+}
+.send_register .card_field{
+    width: 21px;
+    padding: 0 7px;
+    
+}
 
 
+.send_register .litle_white_text10_f6_400_110+.blue_border{
+    margin-left: 85px;
+}
+.send_register{
+
+}
+
+.price_wrap_card{
+    display: flex;
+}
+.price_wrap_card img {
+    position: absolute;
+    left: -137px;
+    top: -17px;
+}
+.price_wrap_card_name {
+}
+.price_wrap_card_count {
+    margin-left: 5px;
+}
+
+
+/* whatinside card //////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.whatinside_card {
+    padding-bottom: 200px;
+}
+.whatinside_card img {
+    position: absolute;
+    left: -38px;
+    bottom: -37px;
+}
+.whatinside_card .big_text_white70_ea {
+}
 
 
 
@@ -1495,6 +1794,31 @@ padding: 4px;
     background: linear-gradient(92.06deg, #F32C73 13.82%, #8A0C39 90.62%);
 }
 
+.bg_purple{
+    background: linear-gradient(180deg, #CD1054 -44.69%, #260DC1 117.81%);}
+
 .bg_blue{
     background: linear-gradient(107.31deg, #4786FF 9.24%, #0C44B1 52.51%);
+}
+.psrel{
+    position: relative;
+}
+.blue_border{
+    border-bottom: 1px solid  #2563DA;
+    display: inline-block;
+}
+.tac{
+    text-align: center;
+}
+.m0a{
+    margin: 0 auto;
+}
+.dn{
+    display: none;
+}
+.db{
+    display: block;
+}
+.red{
+    color: red;
 }
