@@ -63,9 +63,122 @@ if(card_faq_img){
         });
 }
 
-        
+  // слайдер на stocks
+  const stock_wrap_big_slider = document.querySelector('.stock_wrap_big_slider');
+if(stock_wrap_big_slider){
+    const slider = tns({
+        "container": ".stock_wrap_big_slider",
+        items: 1,
+        // "autoWidth": true,
+        "center": false,
+        // "swipeAngle": true,
+        Touch : true,
+        // "autoplayTimeout": 5500,
+       
+        slideBy: '1',
+        // autoplay: true,
+        loop: true,
+        autoplayButton: false,
+        mouseDrag: true,
+        "speed": 400,
+        controls:false,
+        nav: false,
+        "gutter": 40,
+       
+        // responsive: {
+            
+        //     320: {
+    
+        //         items: 1
+        //     },
+        //     768: {
+    
+        //         items: 4
+        //     },
+        //     1440: {
+        //         items: 3
+        //     }
+        // },
+        // navContainer: "#slPager"
+        });
+       
+    document.querySelector('.stock_bigslider_arrow').addEventListener('click', () => {
+    slider.goTo('next');
+    });
+}
+  const stock_wrap_small_slider = document.querySelector('.stock_wrap_small_slider');
+if(stock_wrap_small_slider){
+    const slider = tns({
+        "container": ".stock_wrap_small_slider",
+        // items: 4,
+        // "autoWidth": true,
+        "center": false,
+        // "swipeAngle": true,
+        Touch : true,
+        // "autoplayTimeout": 5500,
+       
+        slideBy: '1',
+        // autoplay: true,
+        loop: true,
+        autoplayButton: false,
+        mouseDrag: true,
+        "speed": 400,
+        controls:false,
+        nav: false,
+  
+        responsive: {
+            
+            320: {
+    
+                items: 3
+            },
+            768: {
+    
+                items: 4
+            },
+         
+        },
+        // navContainer: "#slPager"
+        });
+       
+    document.querySelector('.stock_smallslider_arrow').addEventListener('click', () => {
+    slider.goTo('next');
+    });
+}
+      
+// const tabs = document.querySelectorAll(".tabheader__item"),
+//     tabscontent = document.querySelectorAll(".tabcontent"),
+//     tabsparent = document.querySelector(".tabheader__items");
 
+//     function hideTabContent() {
+//         tabscontent.forEach(item => {
+//             item.classList.remove('db');
+//         });
+//         tabs.forEach(item=> {
+//             item.classList.remove('tabheader__item_active');
+//         });
+//     }
 
+//     function showTabContent (i=0){
+//         tabscontent[i].classList.add('db')
+//         tabs[i].classList.add('tabheader__item_active');
+//     }
+//     if(tabs && tabscontent) {
+//         hideTabContent();
+//         showTabContent();
+
+//         tabsparent.addEventListener('click', (event)=>{
+//             const target = event.target;
+//             if (target && target.classList.contains('tabheader__item')){
+//                 tabs.forEach((el,i)=>{
+//                     if(target == el){
+//                         hideTabContent();
+//                         showTabContent(i);
+//                     }
+//                 });
+//             }
+//         });
+//     }
 
 
 
